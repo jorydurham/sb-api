@@ -12,11 +12,11 @@ const image = require('./controllers/image');
 const db =  knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1', //localhost
-      user : 'postgres', //add your user name for the database here
+      host : 'postgres://jory:Qfu1GOKkUzdaEKaEBRyxpnqi936vdHLP@dpg-cf4menpgp3js6fk37vng-a/main_k3t6', //localhost
+      user : 'jory', //add your user name for the database here
       port: 5432, // add your port number here
-      password : 'test', //add your correct password in here
-      database : 'smart_brain' //add your database name you created here
+      password : 'Qfu1GOKkUzdaEKaEBRyxpnqi936vdHLP', //add your correct password in here
+      database : 'main_k3t6' //add your database name you created here
     }
 });
 
