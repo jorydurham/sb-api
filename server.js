@@ -9,6 +9,8 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+// Adding line of text to update serve location
+
 const db =  knex({
     client: 'pg',
     connection: {
